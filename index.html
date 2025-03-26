@@ -4,6 +4,7 @@
     <head>
       <title>Felipe Gonczoroski</title>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,11 +14,25 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Felipe Gonczoroski</h2>
             <div>
-              <a class="links-navegacao">Habilidades</a>
-              <a class="links-navegacao">Portfólio</a>
-              <a class="links-navegacao">Experiências</a>
+              <a
+                onclick="onClickScrollTo('section-abilities')"
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a
+                onclick="onClickScrollTo('section-portfolio')"
+                class="links-navegacao"
+                >Portfólio</a
+              >
+              <a
+                onclick="onClickScrollTo('section-experience')"
+                class="links-navegacao"
+                >Experiências</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')">
+              CONTATO
+            </button>
           </div>
           <div class="hero-info">
             <div>
@@ -29,7 +44,9 @@
                 Desenvolvedor Front-end em formação. Aprendendo HTML, CSS,
                 JavaScript e React.js.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollTo('section-contact')">
+                ENTRAR EM CONTATO
+              </button>
               <div class="hero-info-icons-container">
                 <a href="https://github.com/Felipe-Gonczoroski">
                   <img
@@ -72,7 +89,7 @@
             </div>
           </div>
         </section>
-        <section class="section-abilities">
+        <section class="section-abilities" id="section-abilities">
           <h2>Habilidades que</h2>
           <h2 class="azul-lavanda">domino.</h2>
           <div class="ability-cards-conteiner">
@@ -129,14 +146,14 @@
             </div>
           </div>
         </section>
-        <section class="section-portfolio">
+        <section class="section-portfolio" id="section-portfolio">
           <h2>Portfólio</h2>
           <h2 class="azul-lavanda">de projetos.</h2>
           <div class="section-portfolio-grid">
             <div class="section-portfolio-card">
               <img
                 class="portfolio-card-img"
-                src="projetos/projeto_1.png"
+                src="projects/projeto_1.png"
                 alt="Projeto Supermarket List"
               />
               <h5>Supermarket List</h5>
@@ -161,7 +178,7 @@
             <div class="section-portfolio-card">
               <img
                 class="portfolio-card-img"
-                src="projetos/projeto_2.png"
+                src="projects/projeto_2.png"
                 alt="Projeto BookClub"
               />
               <h5>BookClub</h5>
@@ -186,7 +203,7 @@
             <div class="section-portfolio-card">
               <img
                 class="portfolio-card-img"
-                src="projetos/projeto_3.png"
+                src="projects/projeto_3.png"
                 alt="Projeto Supermarket List"
               />
               <h5>Supermarket List</h5>
@@ -210,7 +227,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experience">
+        <section class="section-experience" id="section-experience">
           <h2>Experiências</h2>
           <h2 class="azul-lavanda">profissionais.</h2>
           <div class="section-experience-card">
@@ -219,7 +236,7 @@
             </h5>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="azul-lavanda">te ajudar?</h2>
           <p class="section-contact-description">

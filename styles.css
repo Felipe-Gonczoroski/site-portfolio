@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fefefe;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 56px;
+  line-height: 58px;
+  color: #1e1e1e;
+  margin: 0px;
+  padding: 0px;
+  /*Faz a prevenção e/ou tira aquelas barrinha que desliza pro lado.*/
+}
+
+h2.azul-lavanda {
+  color: #6c79ff;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 0px;
+}
+
+p.card-description {
+  font-size: 16px;
+  margin-top: 8px;
+  text-align: center;
+  max-width: 75%;
+}
+
+footer {
+  display: flex;
+  width: 100vw;
+  height: 156px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 56px;
+  border-radius: 16px;
+  background-color: #6c79ff;
+  border-width: 0px;
+  color: #fefefe;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.16rem;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a5ee5;
+  transform: translateZ(3px) scale(1.1);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+li {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.text-azul-lavanda {
+  color: #6c79ff;
+}
+
+.root-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  /*Serve para usar toda a tela e centralizar o conteúdo todo no centro.*/
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  width: 1216px;
+  align-items: center;
+  justify-content: flex-start;
+  /*Serve para não deixar o conteúdo no canto da tela, mas alinhado com todo o resto do conteúdo*/
+}
+
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 48px;
+}
+
+.barra-navegacao {
+  display: flex;
+  width: 1216px;
+  height: 72px;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 64px;
+}
+
+.titulo-navegacao {
+  color: #1e1e1e;
+  font-size: 24px;
+  letter-spacing: -0.015rem;
+  font-weight: bold;
+}
+
+.links-navegacao {
+  color: #1e1e1e;
+  font-size: 16px;
+  letter-spacing: -0.015rem;
+  margin-right: 16px;
+  cursor: pointer;
+  position: relative;
+}
+
+.links-navegacao::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px;
+  width: 0;
+  height: 2px;
+  background-color: #6c79ff;
+  transition: width 0.2s ease-in-out, left 0.2s ease-in-out;
+}
+
+.links-navegacao:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1216px;
+  height: 594px;
+  margin-top: 64px;
+}
+
+.hero-info-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+  margin-right: 40px;
+}
+
+.hero-info-description {
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 16px;
+  max-width: 500px;
+}
+
+.hero-info-image {
+  width: 542px;
+  height: 594px;
+  border-radius: 40px;
+  border-color: #6c79ff;
+  border-width: 4px;
+  border-style: solid;
+}
+
+.hero-info-icons-container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.hero-info-icons-img {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+/*OBS: caso a barra de pesquisa fique desalinhada, reduza o sobrenome, é por causa dele que está assim.*/
+
+.section-abilities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.ability-cards-conteiner {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 36px;
+  margin-top: 48px;
+}
+
+.ability-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 312px;
+  height: 690px;
+  border-radius: 12px;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  padding-top: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+}
+
+.ability-card:hover {
+  transform: translateY(3px) scale(1.03);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.ability-card-icon-conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #6c79ff;
+  margin-bottom: 12px;
+}
+
+.ability-card-icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+.ability-list {
+  width: 80%;
+}
+
+.ability-back-end-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 45%;
+  color: #4d4d4d;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-portfolio {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: 40px;
+  padding-bottom: 64px;
+}
+
+.section-portfolio-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  column-gap: 36px;
+  margin-top: 48px;
+}
+
+.section-portfolio-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 384px;
+  height: 300px;
+  border-width: 2px;
+  border-radius: 24px;
+  border-color: #d9d9d9;
+  border-style: solid;
+  transition: transform 0.3s ease, box-shadow 0.3s ease-in-out;
+}
+
+.section-portfolio-card:hover {
+  transform: translateY(3px) scale(1.03);
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-card-img {
+  width: 220px;
+  height: 156px;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.portfolio-card-links {
+  display: flex;
+  flex-direction: row;
+  width: 17%;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.portfolio-card-icon-img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.section-experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.section-experience-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  height: 130px;
+  border-radius: 16px;
+  background-color: #d9d9d9;
+  margin-top: 24px;
+}
+
+.experience-card-notice {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-top: 4px;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  padding-bottom: 64px;
+  width: 100%;
+}
+
+.section-contact-description {
+  font-size: 16px;
+  margin-top: 8px;
+  text-align: center;
+  max-width: 35%;
+  margin-top: 15px;
+}
+
+.section-contact-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-contact-item-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1216px;
+  height: 100%;
+}
+
+.footer-midia-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 324px;
+  height: 36px;
+}

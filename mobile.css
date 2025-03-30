@@ -114,6 +114,11 @@
     height: 50px;
   }
 
+  .ability-back-end-notice {
+    height: 40%;
+    font-size: 26px;
+  }
+
   .section-portfolio-grid {
     grid-template-columns: auto;
     row-gap: 42px;

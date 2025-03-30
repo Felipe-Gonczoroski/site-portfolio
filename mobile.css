@@ -6,9 +6,22 @@
     padding-right: 12px;
   }
 
+  h2 {
+    font-size: 68px;
+    line-height: 64px;
+  }
+
+  h5 {
+    font-size: 36px;
+  }
+
+  p.card-description {
+    font-size: 27px;
+  }
+
   .content-container {
-    width: 95vw;
-    max-width: 95vw;
+    width: 94vw;
+    max-width: 94vw;
   }
 
   .section-hero {
@@ -79,14 +92,31 @@
 
   .ability-cards-conteiner {
     width: 100%;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     row-gap: 36px;
-    margin-top: 15px;
+    column-gap: 36px;
+    margin-top: 48px;
+  }
+
+  .ability-card {
+    width: 44vw;
+    height: 690px;
+  }
+
+  .ability-card-icon-conteiner {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+  }
+
+  .ability-card-icon-img {
+    width: 50px;
+    height: 50px;
   }
 
   .section-portfolio-grid {
     grid-template-columns: auto;
-    row-gap: 36px;
+    row-gap: 42px;
     margin-top: 48px;
   }
 

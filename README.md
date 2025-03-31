@@ -6,6 +6,26 @@ This project was developed to showcase my professional information and was creat
 
 <img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" alt="Preview do portfólio"/>
 
+## Instructions to run
+
+1. Clone the project:
+
+```
+git clone https://github.com/Felipe-Gonczoroski/site-portfolio.git
+```
+
+2. After clone, open the folder:
+
+```
+site-portfolio
+```
+
+3. Open the file index with the browser:
+
+```
+index.html
+```
+
 ## 🚀 Objective
 
 The main goal of this project is to present my skills and experiences through a structured and responsive website.
@@ -32,6 +52,26 @@ Este foi um projeto que desenvolvi para apresentar minhas informações profissi
 # Pré-visualização
 
 <img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" alt="Preview do portfólio"/>
+
+## Instruções para rodar
+
+1. Clone o projeto:
+
+```
+git clone https://github.com/Felipe-Gonczoroski/site-portfolio.git
+```
+
+2. Após cloná-lo, abra a pasta:
+
+```
+site-portfolio
+```
+
+3. Abra o arquivo index com o navegador:
+
+```
+index.html
+```
 
 ## 🚀 Objetivo
 

@@ -4,7 +4,7 @@ This project was developed to showcase my professional information and was creat
 
 # Preview
 
-<img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" height="500"/>
+<img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" alt="Preview do portfólio"/>
 
 ## 🚀 Objective
 
@@ -31,7 +31,7 @@ Este foi um projeto que desenvolvi para apresentar minhas informações profissi
 
 # Pré-visualização
 
-<img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" height="500"/>
+<img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" alt="Preview do portfólio"/>
 
 ## 🚀 Objetivo
 

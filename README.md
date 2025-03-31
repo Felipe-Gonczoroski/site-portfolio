@@ -6,6 +6,10 @@ This project was developed to showcase my professional information and was creat
 
 <img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" alt="Preview do portfólio"/>
 
+## Live link:
+
+https://felipe-gonczoroski.github.io/site-portfolio/
+
 ## Instructions to run
 
 1. Clone the project:
@@ -52,6 +56,10 @@ Este foi um projeto que desenvolvi para apresentar minhas informações profissi
 # Pré-visualização
 
 <img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" alt="Preview do portfólio"/>
+
+## Link ao vivo:
+
+https://felipe-gonczoroski.github.io/site-portfolio/
 
 ## Instruções para rodar
 

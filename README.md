@@ -2,6 +2,10 @@
 
 This project was developed to showcase my professional information and was created as part of my studies in HTML, CSS, and JavaScript.
 
+# Preview
+
+<img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" height="500"/>
+
 ## 🚀 Objective
 
 The main goal of this project is to present my skills and experiences through a structured and responsive website.
@@ -24,6 +28,10 @@ The main goal of this project is to present my skills and experiences through a 
 # Introdução
 
 Este foi um projeto que desenvolvi para apresentar minhas informações profissionais e criado como parte dos meus estudos de HTML, CSS e JavaScript.
+
+# Pré-visualização
+
+<img src="https://github.com/Felipe-Gonczoroski/site-portfolio/blob/master/preview.png" height="500"/>
 
 ## 🚀 Objetivo
 
